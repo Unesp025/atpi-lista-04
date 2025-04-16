@@ -112,4 +112,4 @@ for (x = 1; x <= 20; x++) {
 ```
 
 Bruno Silva Concli \- 215151409  
-BCC Noturno 025
+Bacharelado em Ciências da Computação Noturno 025
