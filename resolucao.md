@@ -17,20 +17,28 @@ h) printf("Este\\té\\tum\\tprograma\\tem\\tC");
 
 1) **Erros**: Falta o símbolo “%” antes do “d”; Falta o símbolo “&” antes de “valor”, para indicação alocação no endereço de memória.  
    **Correção**: scanf(“%d”, \&valor);  
+
 2) **Erros**: O operador de quebra de linha (“\\n”) está depois da conclusão das aspas; São indicadas três variáveis dentro da string (%d), mas apenas duas são passadas (x e y).  
    **Correção**: printf(“O produto de %d e %d é %d\\n”, x, y, z);  
+
 3) **Erros**: A alocação do valor primeiroNumero \+ segundoNumero na variável somaDosNumeros está ao contrário; Falta um ponto e vírgula ao fim da linha; Possibilidade: Não é possível saber se a variável foi declarada antes da atribuição;  
    **Correção**: int somaDosNumeros \= primeiroNumero \+ segundoNumero;  
+
 4) **Erro**: O sinal da operação “maior ou igual” está invertido; O operador “igual a” está sendo utilizado para atribuição de valor;  
    **Correção**: if (numero \>= maior) maior \= numero;  
+
 5) **Erros**: A função “scanf” deve ter um “s” minúsculo; Falta o sinal “&” para indicar o endereço de memória;  
    **Correção**: scanf(“%d”, \&umInteiro);  
+
 6) **Erros**: São passadas 3 variáveis (x, y e (x%y)), porém apenas 2 espaços reservados dentro da string;  
    **Correção**: printf(“Módulo de %d dividido por %d é \\n%d”, x, y, x%y);  
+
 7) **Erros**: O sinal de atribuição (=) está sendo usado como operador de comparação “igual a” (==); Há um ponto e vírgula na primeira linha que impediria o resultado do if;  
    **Correção**: if (x \== y) printf(“%d e igual a %d\\n”, x, y);  
+
 8) **Erro**: Falta a letra “f” na função “print”;  
    **Correção**: printf(“A soma é %d\\n”, x+y);  
+
 9) **Erros**: Função “printf” deve ser escrita em minúsculo; Falta o fechamento de aspas; O valor indicado é o endereço de memória, ao invés do valor da variável;  
    **Correção**: printf(“O valor que você digitou é %d\\n”, valor);
 
@@ -97,8 +105,9 @@ while (x <= 20) {
 
 //e)
 for (x = 1; x <= 20; x++) {
-printf("%d", x);	if (x % 5 == 0) printf("\n");
-else printf("\t");
+	printf("%d", x);
+	if (x % 5 == 0) printf("\n");
+	else printf("\t");
 }  
 ```
 
