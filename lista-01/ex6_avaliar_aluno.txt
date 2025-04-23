@@ -1,0 +1,25 @@
+algoritmo "Avaliar-aluno-passou-de-ano"
+
+var
+    nota1, nota2, nota3: real
+    nota_minima, media: real
+inicio
+    escreva("Qual nota minima deve ser alcancada?: )
+    leia(nota_minima)
+
+    escreva("Digite a primeira nota: ")
+    leia(nota1)
+
+    escreva("Digite a segunda nota: ")
+    leia(nota2)
+    
+    escreva("Digite a terceira nota: ")
+    leia(nota3)
+
+    media <- (nota1 + nota2 + nota3)/3
+
+    se (media maior ou igual a nota_minima)
+        escreva("O aluno passou!")
+    senao
+        escreva("O aluno reprovou.")
+fim
