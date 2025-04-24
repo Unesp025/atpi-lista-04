@@ -1,4 +1,4 @@
-## Algoritmos e Tecnicas de Programação | Exercícios di Primeiro Semestre
+## Algoritmos e Tecnicas de Programação | Exercícios do Primeiro Semestre
 Este repositório é destinado às listas de exercício passadas para a turma de Bacharelado em Ciências da Computação Noturno de 2025, no primeiro semestre do curso.
 
 ### Instruções
