@@ -19,10 +19,20 @@ void imprimirImc(float massaKg, float alturaMetros) {
 
 int main() {
 	float massaKg, alturaMetros;
+	
+	printf(
+        "\nLista 05 - Computacao Noturno 025\n"
+        "## Exercicio 5: Indice de Massa Corporea ##\n"
+        "Aluno: Bruno Concli - 251151409\n\n");
+
 	printf("Digite sua massa em Kg: ");
 	scanf("%f", &massaKg);
 	printf("Digite sua altura em metros: ");
 	scanf("%f", &alturaMetros);
 
 	imprimirImc(massaKg, alturaMetros);
+
+	getchar();
+    getchar();
+	return 0;
 }

@@ -8,6 +8,12 @@ void calcular_circulo(float raio, float* area, float* perimetro) {
 
 int main() {
 	float raio, area, perimetro;
+
+	printf(
+        "\nLista 05 - Computacao Noturno 025\n"
+        "## Exercicio 7: Circulo  ##\n"
+        "Aluno: Bruno Concli - 251151409\n\n");
+
 	printf("Digite o valor do Raio: ");
 	scanf("%f", &raio);
 	
@@ -15,4 +21,7 @@ int main() {
 
 	printf("A partir do Raio %0.2f, tem-se\nArea: %0.2f\nPerimetro: %0.2f", raio, area, perimetro);
 
+	getchar();
+	getchar();
+	return 0;
 }

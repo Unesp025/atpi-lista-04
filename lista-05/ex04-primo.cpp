@@ -10,11 +10,21 @@ bool ehPrimo(int numero) {
 }
 
 int main() {
-	int numero; 
+	int numero;
+	
+	printf(
+        "\nLista 05 - Computacao Noturno 025\n"
+        "## Exercicio 4: Eh Primo? ##\n"
+        "Aluno: Bruno Concli - 251151409\n\n");
+
 	printf("Digite um valor: ");
 	scanf("%d", &numero);
 	
 	if (ehPrimo(numero)) printf("Eh primo!");
 	else printf("Este numero nao eh primo");
+
+	getchar();
+    getchar();
+	return 0;
 }	
 

@@ -7,5 +7,15 @@ float celsiusParaFahrenheit(float temperaturaCelcius) {
 
 int main() {
 	float temperatura = 26.0;
+
+	printf(
+        "\nLista 05 - Computacao Noturno 025\n"
+        "## Exercicio 3: Celsius Para Fahrenheit  ##\n"
+        "Aluno: Bruno Concli - 251151409\n\n");
+
 	printf("A temperatura de %0.2f °C corresponde a %0.2f F", temperatura, celsiusParaFahrenheit(temperatura));
+	
+	getchar();
+    getchar();
+	return 0;
 }
