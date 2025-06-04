@@ -3,16 +3,19 @@
 
 int main()
 {
-	int* vetor;
 	int tamanho;
-	printf("Infore um temanaho: ");
+	printf("Informe um temanaho: ");
 	scanf("%d", &tamanho);
-	vetor = (int*) malloc(tamanho * sizeof(int));
-	for (int i = 0; i < tamanho; i++)
+	int* vetor = (int*) malloc(tamanho * sizeof(int));
+	if (vetor!= NULL)
 	{
-		vetor[i] = i;
-		printf("%d ", vetor[i]);
+		for (int i = 0; i < tamanho; i++)
+		{
+			vetor[i] = i;
+			printf("%d\n", vetor[i]);
+		}
+		free(vetor);
+
 	}
-	free(vetor);
 	return(0);
 }
