@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 #include "ex06-alocar.c"
 
 int** somarMatrizes(int a[3][3], int b[3][3])

@@ -7,21 +7,17 @@ int main ()
 {   
     int a[3][3] =
     {
-        {1,3,5},
-        {7,9,11},
-        {13,14,15}
+        {11,12,13},
+        {21,22,23},
+        {31,32,33}
     };
     int b[3][3] =
     {
-        {9,8,7},
-        {6,5,4},
-        {3,2,1}
+        {1,2,3},
+        {4,5,6},
+        {7,8,9},
     };
     int** c = somarMatrizes(a, b);
-    if (c==NULL) {
-        printf("Matriz nula");
-        return 1;
-    }
     imprimirMatriz(c, 3, 3);
     liberarEspaco(c, 3);
     return 0;

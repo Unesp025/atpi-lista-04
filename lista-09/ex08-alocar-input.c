@@ -1,4 +1,4 @@
-// #include "ex06-alocar.c"
+#include "ex06-alocar.c"
 
 int** preencherMatrizDinamica(int linhas, int colunas) {
     int valor;
