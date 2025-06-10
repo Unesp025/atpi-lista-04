@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "ex01-soma.c"
+#include "ex01-soma-dinamica.c"
 #include "ex07-liberar.c"
 #include "ex08-alocar-input.c"
 #include "ex09-imprimir.c"
