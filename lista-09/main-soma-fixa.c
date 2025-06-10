@@ -5,6 +5,8 @@
 
 int main () 
 {   
+    printf("\n= Obter soma de duas matrizes 3x3 =\n");
+
     int a[3][3] =
     {
         {11,12,13},

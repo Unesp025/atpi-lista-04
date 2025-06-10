@@ -6,6 +6,8 @@
 
 int main()
 {
+    printf("\n= Obter produto entre duas matrizes alocadas dinamicamente =\n");
+
     int linhas_A, colunas_A;
     int linhas_B, colunas_B;
 

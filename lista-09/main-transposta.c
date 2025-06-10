@@ -6,6 +6,8 @@
 
 int main()
 {
+    printf("\n= Obter transposta de uma matriz alocada dinamicamente =\n");
+    
     int linhas, colunas;
     printf("Digite a quantidade de linhas: ");
     scanf("%d", &linhas);

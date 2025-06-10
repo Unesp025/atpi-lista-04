@@ -6,6 +6,8 @@
 
 int main()
 {
+    printf("\n= Obter soma da Diagonal principal de uma Matriz Dinamica =\n");
+    
     int linhas, colunas;
     printf("Digite a quantidade de linhas: ");
     scanf("%d", &linhas);

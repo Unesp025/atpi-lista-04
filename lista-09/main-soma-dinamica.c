@@ -6,6 +6,8 @@
 
 int main()
 {
+    printf("\n= Obter soma de duas matrizes alocadas dinamicamente =\n");
+
     int linhas, colunas;
     printf("Digite a quantidade de linhas: ");
     scanf("%d", &linhas);

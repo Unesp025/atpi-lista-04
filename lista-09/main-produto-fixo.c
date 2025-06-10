@@ -4,6 +4,8 @@
 
 int main()
 {
+    printf("\n= Obter o produto entre matrizes 3x3 =\n");
+
     int A[3][3] =
     {
         {2,0,1},

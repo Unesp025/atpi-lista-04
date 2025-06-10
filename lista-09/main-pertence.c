@@ -6,6 +6,8 @@
 
 int main ()
 {
+    printf("\n= Encontrar a posicao de um valor pertencente a matriz =\n");
+
     int linhas, colunas;
     printf("Digite a quantidade de linhas: ");
     scanf("%d", &linhas);
